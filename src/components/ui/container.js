@@ -19,25 +19,27 @@ const useStyles=makeStyles((theme)=> ({
       justifyContent: 'space-around',
       overflow: 'hidden',
       backgroundColor: theme.palette.background.paper,
-      paddingTop:100
-    
-    },
+      paddingTop:40,
+      paddingBottom:50,
+       },
     gridList: {
-      width: 500,
-      height: 450,
+      width: 970,
+      height: 1400,
+
     },
     icon: {
       color: 'rgba(255, 255, 255, 0.54)',
     },
+    
   }));
 
   export default function TitlebarGridList() {
     const classes = useStyles();
-  
+    
     return (
       <div className={classes.root}>
-        <GridList cellHeight={180} className={classes.gridList}>
-          <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
+        <GridList   cellHeight={300} spacing={40} className={classes.gridList}>
+          <GridListTile key="Subheader"  cols={2}  style={{ height: 'auto' }}>
             <ListSubheader component="div"></ListSubheader>
           </GridListTile>
           {tileData.map((tile) => (

@@ -3,23 +3,43 @@ const tileData = [
     {
       img: "/01.JPG",
       
-      section: 'THEATER',
+      section: 'SEE IN GALLERY',
     },
   
     {
       img: "/02.JPG",
       
-      section: 'PORTRAITS',
+      section: 'SEE IN GALLERY',
     },
     {
-      img: "/skate01.JPG",
+      img: "/05.JPG",
       
-      section: 'PORTRAITS',
+      section: 'SEE IN GALLERY',
     },
     {
-      img: "/skate02.JPG",
+      img: "/06.JPG",
       
-      section: 'PORTRAITS',
+      section: 'SEE IN GALLERY',
+    },
+    {
+      img: "/03.JPG",
+      
+      section: 'SEE IN GALLERY',
+    },
+    {
+      img: "/04.JPG",
+      
+      section: 'SEE IN GALLERY',
+    },
+    {
+      img: "/04.JPG",
+      
+      section: 'SEE IN GALLERY',
+    },
+    {
+      img: "/04.JPG",
+      
+      section: 'SEE IN GALLERY',
     }
   ];
 

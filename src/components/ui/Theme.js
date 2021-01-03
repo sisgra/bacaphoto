@@ -4,6 +4,7 @@ const arcBlack= "#45545F"
 const arcBrown="#CEC6B6"
 
 
+
 export default createMuiTheme({
     palette:{
         common:{
@@ -20,7 +21,5 @@ export default createMuiTheme({
             paper:"transparent"      
         },
     },
-    
-    
-    
+     
 });

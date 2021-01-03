@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom';
+import { Security } from '@okta/okta-react';
+
+const oktaConfig={
+  issuer:`https://dev-4186439.okta.com/oauth2/default`,
+  redirect_uri:`${window.location.origin}/implicit/callback`,
+  client_id:`0oa396yytSALpbjo45d6`
+
+};
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+  <Security {...oktaConfig}>
     <App />
-  </React.StrictMode>,
+  </Security>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
